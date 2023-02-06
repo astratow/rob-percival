@@ -1,0 +1,17 @@
+/*style.css*/
+#circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: blue;
+	margin:10px;
+	padding:10px;
+	text-align: center;
+}
+.square{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	margin:10px;
+	padding:10px;
+}

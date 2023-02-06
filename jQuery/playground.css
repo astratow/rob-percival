@@ -1,0 +1,78 @@
+/*playground.css*/
+
+.button-test {
+  background-color: #8A7BB6;
+  border-color: #8A7BB6;
+  border-radius: 8px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  font: 1rem;
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  width: 100%;
+}
+.option-test {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3em;
+  width: 100%;
+}
+.plan-select-test{
+  display: inline-flex;
+  border-color: #DCEAED;
+  border: 1px solid;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+  border-radius: 8px;
+  width: 100%;
+
+}
+.plan-select-test:focus-within {
+  border: 3px solid;
+}
+
+.price-test {
+  font-weight: bold;
+  padding-right: 0.3em;
+}   
+.product-name-test {
+  font-weight: bold;
+} 
+
+.product__info--options-test:focus-within {
+  color:#8A7BB6;
+}
+.right-text-test {
+  marigin-right: 0.3em;
+}
+.saving-test{
+  color: #8A7BB6;
+}
+.styled-pricing-test{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  padding: 1em;
+  background-clip: content-box;
+  border: 2px solid #DCEAED;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.2em;
+  margin:  0.2em;
+}
+input[type="radio"]:checked {
+  background-color: #8A7BB6;
+  border: 2px solid #8A7BB6;
+}

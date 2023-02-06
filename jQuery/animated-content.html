@@ -1,0 +1,31 @@
+<!-- animated-content.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="lib/jQuery.min.js"></script>
+	<title>Project Percival</title>
+</head>
+<body>
+<h1>Hello jQuery</h1>
+<div id="circle" style="background-color: green;">circle</div>
+
+<script type="text/javascript">
+	
+	$("#circle").click(function(){
+
+		// alert("you have clicked circle!");
+		$(this).animate({width:"400px", height:"400px"},
+		 5000, 
+		 function(){
+			$(this).css("background-color", "red");
+		});
+	});
+	
+
+</script>
+
+</body>
+</html>

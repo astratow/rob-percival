@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="lib/jQuery.min.js"></script>
+	<title>Project Percival</title>
+</head>
+<body>
+<h1>Hello jQuery</h1>
+<div id="circle">circle</div>
+<div class="square">square 1</div>
+<div class="square">square 2</div>
+<script type="text/javascript">
+	
+	// $("#circle").click(function(){
+
+	// 	alert("you have clicked circle!");
+
+	// });
+	$("div").click(function(){
+
+	// 	alert("you have clicked me!");
+	// });
+	// if(typeof jQuery == "undefined"){
+	// 	alert("I am sorry, but jQuery is not installed");
+	// }else{
+	// 	alert("Welcome! Your Jquery is ready for action!")
+		// ($(this).css("background-color", "lime"));
+	($(this).fadeOut("slow", function(){
+
+		alert("It's now gone!");
+
+	}));
+	// ($(this).hide());
+
+	});
+
+</script>
+
+</body>
+</html>
